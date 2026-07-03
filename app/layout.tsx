@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  // TODO: ganti "blank.pages.dev" dengan domain final kamu sebelum deploy
+
   metadataBase: new URL("https://surat6.pages.dev"),
   title: {
     default: "SURAT4D | Portal Akses Resmi & Terpadu Dengan Kemudahan Akses ",
@@ -58,10 +58,9 @@ export const metadata: Metadata = {
       "Halaman resmi yang merangkum semua jalur akses SURAT4D dalam satu tempat: cepat ditemukan, mudah dibagikan.",
     images: ["thumbnail-surat4d-popularitas-tinggi.jpg"],
   },
-  // TODO: isi ulang dengan kode verifikasi Google Search Console milik domain final kamu
-  // verification: {
-  //   google: "KODE_VERIFIKASI_KAMU",
-  // },
+  verification: {
+    google: "Rjok25XKnyydWvMR10Iw7ypwr8VEUW3hDvf--Za_Txo",
+  },
 };
 
 // Viewport & theme-color sekarang idiomatik lewat export terpisah,
