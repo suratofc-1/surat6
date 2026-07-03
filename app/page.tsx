@@ -81,7 +81,6 @@ export default function Home() {
             alt="Logo SURAT4D"
             width={220}
             height={56}
-            priority
             className="h-9 md:h-14 max-w-[140px] md:max-w-[220px] w-auto object-contain"
           />
         </div>
@@ -331,7 +330,7 @@ export default function Home() {
 
       {/* FOOTER */}
       <footer className="mt-20 border-t border-white/5 py-6 text-center text-xs text-gray-500">
-        © 2026 SEO WD8. All Rights Reserved.
+        © 2026 SEO SURAT4D. All Rights Reserved.
       </footer>
     </div>
   );

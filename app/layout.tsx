@@ -3,13 +3,13 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   // TODO: ganti "blank.pages.dev" dengan domain final kamu sebelum deploy
-  metadataBase: new URL("https://blank.pages.dev"),
+  metadataBase: new URL("https://surat6.pages.dev"),
   title: {
-    default: "SURAT4D | Portal Akses Resmi & Terpadu",
+    default: "SURAT4D | Portal Akses Resmi & Terpadu Dengan Kemudahan Akses ",
     template: "%s | SURAT4D",
   },
   description:
-    "SURAT4D adalah halaman akses tunggal yang menghubungkan Anda ke seluruh kanal resmi kami — praktis, ringan diakses dari perangkat apa pun, dan selalu diperbarui agar Anda tidak pernah salah tautan.",
+    "SURAT4D adalah halaman akses tunggal yang menghubungkan Anda ke seluruh kanal resmi kami - praktis, ringan diakses dari perangkat apa pun.",
   applicationName: "SURAT4D",
   authors: [{ name: "SURAT4D" }],
   category: "technology",
@@ -38,11 +38,11 @@ export const metadata: Metadata = {
     title: "SURAT4D — Satu Tautan, Semua Akses",
     description:
       "Tidak perlu lagi mencari-cari link yang benar. SURAT4D merangkum semua jalur akses resmi kami dalam satu halaman yang cepat, rapi, dan mudah dibagikan.",
-    url: "https://blank.pages.dev/",
+    url: "https://surat6.pages.dev/",
     siteName: "SURAT4D",
     images: [
       {
-        url: "https://blank.pages.dev/thumbnail-surat4d-popularitas-tinggi.jpg",
+        url: "https://surat6.pages.dev/thumbnail-surat4d-popularitas-tinggi.jpg",
         width: 1200,
         height: 630,
         alt: "SURAT4D — Portal Akses Resmi",
@@ -94,7 +94,7 @@ export default function RootLayout({
           dihapus seluruhnya untuk menghindari warning "Invalid object type"
           di Google Search Console > Structured Data.
           Jika nanti fitur search sudah ada, baru tambahkan kembali dengan
-          format: "target": "https://blank.pages.dev/search?q={search_term_string}"
+          format: "target": "https://surat6.pages.dev/search?q={search_term_string}"
         */}
         <script
           type="application/ld+json"
@@ -103,7 +103,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               name: "SURAT4D",
-              url: "https://blank.pages.dev/",
+              url: "https://surat6.pages.dev",
             }),
           }}
         />
