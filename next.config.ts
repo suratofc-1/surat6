@@ -1,8 +1,9 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export', // <-- Bagian ini WAJIB ada agar menghasilkan file HTML statis
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  output: 'export',
   images: {
-    unoptimized: true, // Tambahkan ini juga agar gambar aman di Cloudflare
+    unoptimized: true,
   },
 };
 
