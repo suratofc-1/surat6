@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     siteName: "SURAT4D",
     images: [
       {
-        url: "https://blank.pages.dev/thumbnail-share.png",
+        url: "https://blank.pages.dev/thumbnail-surat4d-popularitas-tinggi.jpg",
         width: 1200,
         height: 630,
         alt: "SURAT4D — Portal Akses Resmi",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     title: "SURAT4D — Satu Tautan, Semua Akses",
     description:
       "Halaman resmi yang merangkum semua jalur akses SURAT4D dalam satu tempat: cepat ditemukan, mudah dibagikan.",
-    images: ["https://blank.pages.dev/thumbnail-share.png"],
+    images: ["thumbnail-surat4d-popularitas-tinggi.jpg"],
   },
   // TODO: isi ulang dengan kode verifikasi Google Search Console milik domain final kamu
   // verification: {

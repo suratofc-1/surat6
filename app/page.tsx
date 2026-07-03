@@ -47,7 +47,7 @@ const faqItems = [
 ];
 
 export default function Home() {
-  const bannerImage = "/banner-surat4d.jpg";
+  const bannerImage = "/banner-surat4d-cepat-akses-tercepat.jpg";
 
   return (
     <div className="min-h-screen bg-[#020b18] text-white font-sans antialiased selection:bg-amber-500 selection:text-black">
