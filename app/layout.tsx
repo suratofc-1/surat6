@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     images: ["thumbnail-surat4d-popularitas-tinggi.jpg"],
   },
   verification: {
-    google: "Rjok25XKnyydWvMR10Iw7ypwr8VEUW3hDvf--Za_Txo",
+    google: "F0xhZ_17fcp7myan4s5V7dTGWIAxQXbK84eSO_HX13k",
   },
 };
 
