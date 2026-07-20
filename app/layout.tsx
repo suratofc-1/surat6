@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   // 'keywords' sengaja tidak diisi: Google tidak lagi memakainya untuk ranking,
   // dan pengisian berlebihan justru berisiko dibaca sebagai keyword-stuffing.
   alternates: {
-    canonical: "/",
+    canonical: "https://surat6.pages.dev/",
   },
   robots: {
     index: true,
